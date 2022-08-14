@@ -1,0 +1,13 @@
+name: buttontest // comments for basic command stuff are in command.txt
+args:
+      arg1:
+           type: int
+           description: Hello, World!
+run:
+    button("Click Me","blue") // send button called Click Me with blue color (primary called)
+
+click: // on button click
+    reply("You clicked me!",true); // reply with you clicked me, true goes for hidden (only the clicker can see it)
+error:
+    log("error occured");
+ 

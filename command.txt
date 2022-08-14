@@ -1,0 +1,11 @@
+name: test //slash command name
+args: //command args
+      arg1: // arg name
+           type: int // discord slash command arg type
+           description: Hello, World! // description (shown in discord client under command)
+run: // on command run
+    reply("hello, " + arg1); // reply with hello arg
+
+error: // when error occures
+    log("error occured"); // log it to console
+ 

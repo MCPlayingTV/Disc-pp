@@ -1,0 +1,3 @@
+token: MTAwODMwMTk2MzQzNzQyMDYwNA.GzbrsF.fr5xswKiVxPuJjBTnmnBOBu9J48-7tPQeBbab0 // Discord Token
+database: mongodb // native database support, planning: sqlite,mongodb,sql
+start()
