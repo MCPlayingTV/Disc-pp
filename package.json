@@ -7,7 +7,12 @@
     "compile": "node compile.js"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "discord.js": "^14.2.0",
-    "line-by-line": "^0.1.6"
+    "line-by-line": "^0.1.6",
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "dpp": "./compiler/index.js"
   }
 }
